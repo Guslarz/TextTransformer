@@ -17,6 +17,8 @@ public class TextTransformerFactory {
     switch (transform) {
       case "upper":
         return new ToUpperTransformer(previous);
+      case "lower":
+        return new ToLowerTransformer(previous);
       default:
         throw new RuntimeException("Invalid transform");
     }
