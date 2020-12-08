@@ -19,6 +19,8 @@ public class TextTransformerFactory {
         return new ToUpperTransformer(previous);
       case "lower":
         return new ToLowerTransformer(previous);
+      case "capitalize":
+        return new CapitalizeTransformer(previous);
       default:
         throw new RuntimeException("Invalid transform");
     }
