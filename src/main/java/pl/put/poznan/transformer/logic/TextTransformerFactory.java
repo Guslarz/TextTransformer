@@ -22,6 +22,8 @@ public class TextTransformerFactory {
         return new CapitalizeTransformer(previous);
       case "latex":
         return new LatexFormatTransformer(previous);
+      case "applyShortcuts":
+        return new ShortcutApplicator(previous);
       default:
         throw new RuntimeException("Invalid transform");
     }
