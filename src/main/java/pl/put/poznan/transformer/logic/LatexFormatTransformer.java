@@ -13,9 +13,9 @@ public class LatexFormatTransformer extends ActualTransformer{
 
     static private String[] symbols = {"&", "\\$"};
 
-    private String toLatexFormat(String text){
-        for(String symbol : symbols){
-            text = text.replaceAll(symbol,"\\\\" + symbol);
+    private String toLatexFormat(String text) {
+        for(String symbol : symbols) {
+            text = text.replaceAll(symbol, "\\\\" + symbol);
         }
 
         return text;
