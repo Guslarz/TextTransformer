@@ -7,13 +7,13 @@ public class LatexFormatTransformer extends ActualTransformer{
 
   @Override
   protected String apply(String text) {
-        return toLatexFormat(text);
-    }
+    return toLatexFormat(text);
+  }
 
   private static String[] symbols = {"&", "\\$"};
 
   private String toLatexFormat(String text) {
-    for(String symbol : symbols) {
+    for (String symbol : symbols) {
       text = text.replaceAll(symbol, "\\\\" + symbol);
     }
 
