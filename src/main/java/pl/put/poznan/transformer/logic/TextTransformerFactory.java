@@ -6,7 +6,6 @@ import java.util.stream.Stream;
 public class TextTransformerFactory {
 
   public static TextTransformer createTextTransformer(String[] transforms) {
-
     return Stream.of(transforms)
         .reduce(new InitialText(), TextTransformerFactory::accumulator,
             TextTransformerFactory::combiner);
