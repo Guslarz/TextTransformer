@@ -35,7 +35,7 @@ public class TextTransformerController {
       @RequestParam String text,
       @RequestParam(defaultValue = "upper") String[] transforms) {
 
-    logger.debug("New POST request");
+    logger.debug("New POST request (x-www-form-urlencoded)");
 
     return createResponse(text, transforms);
   }
@@ -46,7 +46,7 @@ public class TextTransformerController {
   public ResponseEntity<TextTransformerResult> postV2(
       @RequestBody TextTransformerRequestBody body) {
 
-    logger.debug("New POST request");
+    logger.debug("New POST request (json)");
 
     return createResponse(body.getText(), body.getTransforms());
   }

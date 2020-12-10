@@ -1,6 +1,6 @@
 package pl.put.poznan.transformer.logic;
 
-public class LatexFormatTransformer extends ActualTransformer{
+public class LatexFormatTransformer extends ActualTransformer {
   public LatexFormatTransformer(TextTransformer previous) {
     super(previous);
   }
@@ -10,7 +10,7 @@ public class LatexFormatTransformer extends ActualTransformer{
     return toLatexFormat(text);
   }
 
-  private static String[] symbols = {"&", "\\$"};
+  private static String[] symbols = { "&", "\\$" };
 
   private String toLatexFormat(String text) {
     for (String symbol : symbols) {
@@ -18,5 +18,5 @@ public class LatexFormatTransformer extends ActualTransformer{
     }
 
     return text;
-    }
+  }
 }

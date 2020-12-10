@@ -19,7 +19,7 @@ public class TextTransformerControllerAdvice {
   public ResponseEntity<Map<String, Object>> undefinedTransformHandler(
       UndefinedTransformException ex, WebRequest request) {
 
-    Map<String, Object> attributes =  new DefaultErrorAttributes()
+    Map<String, Object> attributes = new DefaultErrorAttributes()
         .getErrorAttributes(request, ErrorAttributeOptions.defaults());
     HttpStatus status = HttpStatus.BAD_REQUEST;
     attributes.replace("status", status.value());
