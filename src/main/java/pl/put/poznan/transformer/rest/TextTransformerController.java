@@ -2,6 +2,8 @@ package pl.put.poznan.transformer.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pl.put.poznan.transformer.logic.TextTransformer;
 import pl.put.poznan.transformer.logic.TextTransformerFactory;
@@ -10,32 +12,53 @@ import java.util.Arrays;
 
 
 @RestController
-@RequestMapping("/{text}")
+@RequestMapping("/api")
 public class TextTransformerController {
 
   private static final Logger logger = LoggerFactory.getLogger(TextTransformerController.class);
 
-  @RequestMapping(method = RequestMethod.GET, produces = "application/json")
-  public String get(@PathVariable String text,
-                    @RequestParam(value = "transforms", defaultValue = "upper") String[] transforms) {
+  @GetMapping(produces = "application/json")
+  @ResponseBody
+  public ResponseEntity<TextTransformerResult> get(
+      @RequestParam String text,
+      @RequestParam(defaultValue = "upper") String[] transforms) {
 
-    logger.debug(text);
-    logger.debug(Arrays.toString(transforms));
+    logger.debug("New GET request");
 
-    TextTransformer transformer = TextTransformerFactory.createTextTransformer(transforms);
-    return transformer.transform(text);
+    return createResponse(text, transforms);
   }
 
-  @RequestMapping(method = RequestMethod.POST, produces = "application/json")
-  public String post(@PathVariable String text,
-                     @RequestBody String[] transforms) {
+  @PostMapping(
+      consumes = "application/x-www-form-urlencoded",
+      produces = "application/json")
+  public ResponseEntity<TextTransformerResult> postV1(
+      @RequestParam String text,
+      @RequestParam(defaultValue = "upper") String[] transforms) {
+
+    logger.debug("New POST request (x-www-form-urlencoded)");
+
+    return createResponse(text, transforms);
+  }
+
+  @PostMapping(
+      consumes = "application/json",
+      produces = "application/json")
+  public ResponseEntity<TextTransformerResult> postV2(
+      @RequestBody TextTransformerRequestBody body) {
+
+    logger.debug("New POST request (json)");
+
+    return createResponse(body.getText(), body.getTransforms());
+  }
+
+  private ResponseEntity<TextTransformerResult> createResponse(String text, String[] transforms) {
 
     logger.debug(text);
     logger.debug(Arrays.toString(transforms));
 
     TextTransformer transformer = TextTransformerFactory.createTextTransformer(transforms);
-    return transformer.transform(text);
+    String result = transformer.transform(text);
+
+    return new TextTransformerResult(result, HttpStatus.OK).toResponseEntity();
   }
 }
-
-

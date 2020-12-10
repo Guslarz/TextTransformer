@@ -25,7 +25,7 @@ public class TextTransformerFactory {
       case "applyShortcuts":
         return new ShortcutApplicator(previous);
       default:
-        throw new RuntimeException("Invalid transform");
+        throw new UndefinedTransformException(transform);
     }
   }
 
