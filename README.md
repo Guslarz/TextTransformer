@@ -18,3 +18,18 @@ Oba żądania posiadają dwa parametry:
 - `text` - string który poddany zostanie transformacji
 - `transforms` - tablica stringów określająca kolejne transformacje (nazwy pooddzielane 
 średnikami dla x-www-form-urlencoded lub JSONArray w przypadku użycia formatu json)
+
+#### Przykłady
+```
+curl "http://localhost:8080/api?text=ExAmPle&transforms=lower,upper"
+curl -X POST -d "text=ExAmPle&transforms=lower,upper" "http://localhost:8080/api"
+curl -X POST -H "Content-type: application/json" -d "@req.json" "http://localhost:8080/api"
+```
+
+req.json
+```
+{
+	"text": "AsDf\"&asdx",
+	"transforms": ["lower", "latex"]
+}
+```
