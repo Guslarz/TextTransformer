@@ -20,7 +20,7 @@ public class TextTransformerFactory {
       case "lower":
         return new ToLowerTransformer(previous);
       default:
-        throw new RuntimeException("Invalid transform");
+        throw new UndefinedTransformException(transform);
     }
   }
 
