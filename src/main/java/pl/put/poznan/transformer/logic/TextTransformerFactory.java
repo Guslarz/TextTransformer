@@ -24,6 +24,8 @@ public class TextTransformerFactory {
         return new LatexFormatTransformer(previous);
       case "applyShortcuts":
         return new ShortcutApplicator(previous);
+      case "expandShortcuts":
+        return new ShortcutExpander(previous);
       default:
         throw new UndefinedTransformException(transform);
     }
