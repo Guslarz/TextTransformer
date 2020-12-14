@@ -26,6 +26,8 @@ public class TextTransformerFactory {
         return new ShortcutApplicator(previous);
       case "expandShortcuts":
         return new ShortcutExpander(previous);
+      case "numbers":
+        return new NumberToWordsTransformer(previous);
       default:
         throw new UndefinedTransformException(transform);
     }
