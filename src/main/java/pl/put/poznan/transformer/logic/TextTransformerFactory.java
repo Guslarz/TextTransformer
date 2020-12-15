@@ -28,6 +28,8 @@ public class TextTransformerFactory {
         return new ShortcutExpander(previous);
       case "numbers":
         return new NumberToWordsTransformer(previous);
+      case "removeDuplicates":
+        return new DuplicateRemover(previous);
       default:
         throw new UndefinedTransformException(transform);
     }
