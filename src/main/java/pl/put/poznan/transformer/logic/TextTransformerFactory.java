@@ -20,6 +20,8 @@ public class TextTransformerFactory {
         return new ToLowerTransformer(previous);
       case "capitalize":
         return new CapitalizeTransformer(previous);
+      case "reverse":
+        return new Reverser(previous);
       case "latex":
         return new LatexFormatTransformer(previous);
       case "applyShortcuts":
