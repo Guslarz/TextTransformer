@@ -3,8 +3,17 @@ package pl.put.poznan.transformer.logic;
 import java.util.stream.Stream;
 
 
+/**
+ * Fabryka tworząca instancje klasy TextTransformer
+ */
 public class TextTransformerFactory {
 
+  /**
+   * Statyczna metoda zwracająca instancję TextTranformer odpowiadającą
+   * ciągowi oczekiwanych przez użytkownika transformacji
+   * @param transforms kolejne transformacje
+   * @return instancja TextTransformer
+   */
   public static TextTransformer createTextTransformer(String[] transforms) {
     return Stream.of(transforms)
         .reduce(new InitialText(), TextTransformerFactory::accumulator,
