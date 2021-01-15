@@ -11,6 +11,7 @@ public class TextTransformerFactory {
   /**
    * Statyczna metoda zwracająca instancję TextTranformer odpowiadającą
    * ciągowi oczekiwanych przez użytkownika transformacji
+   *
    * @param transforms kolejne transformacje
    * @return instancja TextTransformer
    */
@@ -41,6 +42,10 @@ public class TextTransformerFactory {
         return new NumberToWordsTransformer(previous);
       case "removeDuplicates":
         return new DuplicateRemover(previous);
+      case "morseEncode":
+        return new MorseEncoder(previous, new MorseMapperImpl());
+      case "morseDecode":
+        return new MorseDecoder(previous, new MorseMapperImpl());
       default:
         throw new UndefinedTransformException(transform);
     }
