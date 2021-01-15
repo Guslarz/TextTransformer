@@ -38,7 +38,7 @@ public class TextTransformerController {
     logger.debug("New POST request (x-www-form-urlencoded)");
 
     return createResponse(text, transforms);
-  }
+  } 
 
   @PostMapping(
       consumes = "application/json",
