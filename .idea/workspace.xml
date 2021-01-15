@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f022d57-e8bb-4333-9ec3-8da561ecb442" name="Default Changelist" comment="Add MorseEncoder and MorseDecoder">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text-transformer.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="morse" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l35WQpq5v5PSduRdlLBEB6iV8T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SI/games-src" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.put.poznan.transformer.rest.response" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TextTransformerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="TextTransformer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.put.poznan.transformer.app.TextTransformerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="14" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f022d57-e8bb-4333-9ec3-8da561ecb442" name="Default Changelist" comment="" />
+      <created>1606812965217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606812965217</updated>
+      <workItem from="1606813011638" duration="324000" />
+      <workItem from="1606827074231" duration="614000" />
+      <workItem from="1606828268395" duration="13000" />
+      <workItem from="1607074904247" duration="87000" />
+      <workItem from="1607088375313" duration="6472000" />
+      <workItem from="1607173400253" duration="5248000" />
+      <workItem from="1607343619055" duration="4294000" />
+      <workItem from="1607358674695" duration="1243000" />
+      <workItem from="1607443193312" duration="5579000" />
+      <workItem from="1607459121120" duration="11584000" />
+      <workItem from="1607508552241" duration="29444000" />
+      <workItem from="1607623758211" duration="936000" />
+      <workItem from="1607684378780" duration="3022000" />
+      <workItem from="1608049788873" duration="4140000" />
+      <workItem from="1608568496116" duration="689000" />
+      <workItem from="1608572689077" duration="732000" />
+      <workItem from="1608575148368" duration="37000" />
+      <workItem from="1608620746814" duration="2608000" />
+      <workItem from="1610714627406" duration="2839000" />
+      <workItem from="1610717585751" duration="5005000" />
+      <workItem from="1610734135508" duration="251000" />
+      <workItem from="1610734396142" duration="85000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add TextTransform factory and integrate with REST API">
+      <created>1607344316387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607344316387</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add TextTransform factory and integrate with REST API">
+      <created>1607356443022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607356443022</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add MorseEncoder and MorseDecoder">
+      <created>1610721113282</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610721113285</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cosmetic changes" />
+    <MESSAGE value="Add TextTransform factory and integrate with REST API" />
+    <MESSAGE value="Add MorseEncoder and MorseDecoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MorseEncoder and MorseDecoder" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="236" y="0" key="#Java" timestamp="1607515718599">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="236" y="0" key="#Java/0.0.1280.680@0.0.1280.680" timestamp="1607515718599" />
+    <state x="299" y="0" width="696" height="680" key="#TextTransformerApplication" timestamp="1610718428284">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="299" y="0" width="696" height="680" key="#TextTransformerApplication/0.0.1280.680@0.0.1280.680" timestamp="1610718428284" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610718853174">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1610718853174" />
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1610720021310">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1610720021310" />
+    <state x="370" y="131" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610717938919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="370" y="131" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1610717938919" />
+    <state x="272" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1610719002104">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="272" y="30" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1610719002104" />
+    <state x="424" y="210" width="432" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607594156600">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="424" y="210" width="432" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1607594156600" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607527460229">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1607527460229" />
+    <state x="389" y="50" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1608053229778">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="389" y="50" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1608053229778" />
+    <state x="121" y="51" key="DiffContextDialog" timestamp="1610721160225">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="51" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1610721160225" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1608052546357">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608052546357" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610734390125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1610734390125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1610734390125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1610734390125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
+    <state width="1237" height="163" key="GridCell.Tab.1.bottom" timestamp="1610734390125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
+    <state width="1237" height="163" key="GridCell.Tab.1.center" timestamp="1610734390125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
+    <state width="1237" height="163" key="GridCell.Tab.1.left" timestamp="1610734390125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
+    <state width="1237" height="163" key="GridCell.Tab.1.right" timestamp="1610734390125">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1610719615923">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1610719615923" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610721161656">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610721161656" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610734200231">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610734200231" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1606827119090">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1606827119090" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1607514965704">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1607514965704" />
+  </component>
+</project>
