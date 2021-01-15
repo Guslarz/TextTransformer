@@ -1,10 +1,10 @@
 package pl.put.poznan.transformer.logic;
 
-import java.util.List;
+import java.util.Set;
 
 public interface PolishCharactersMapper {
 
-  List<String> getCharactersToReplace(String text);
+  Set<String> getPolishCharacters();
 
   String getLatinLetter(String polishLetter);
 }

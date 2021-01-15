@@ -1,7 +1,5 @@
 package pl.put.poznan.transformer.logic;
 
-import java.util.List;
-
 public class PolishCharactersTransformer extends ActualTransformer {
 
   private final PolishCharactersMapper mapper;
@@ -13,9 +11,7 @@ public class PolishCharactersTransformer extends ActualTransformer {
 
   @Override
   protected String apply(String text) {
-    List<String> charactersToReplace = mapper.getCharactersToReplace(text);
-
-    for (String character : charactersToReplace) {
+    for (String character : mapper.getPolishCharacters()) {
       text = text.replaceAll(character, mapper.getLatinLetter(character));
     }
 

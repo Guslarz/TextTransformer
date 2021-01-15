@@ -1,9 +1,6 @@
 package pl.put.poznan.transformer.logic;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class PolishCharactersMapperImpl implements PolishCharactersMapper {
 
@@ -36,15 +33,7 @@ public class PolishCharactersMapperImpl implements PolishCharactersMapper {
   }
 
   @Override
-  public List<String> getCharactersToReplace(String text) {
-    List<String> charactersToReplace = new ArrayList<>();
-
-    for (String character : characters.keySet()) {
-      if (text.contains(character)) {
-        charactersToReplace.add(character);
-      }
-    }
-
-    return charactersToReplace;
+  public Set<String> getPolishCharacters() {
+    return characters.keySet();
   }
 }
