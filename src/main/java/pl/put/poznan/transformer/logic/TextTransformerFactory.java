@@ -41,6 +41,8 @@ public class TextTransformerFactory {
         return new NumberToWordsTransformer(previous);
       case "removeDuplicates":
         return new DuplicateRemover(previous);
+      case "polishLetters":
+        return new PolishCharactersTransformer(previous, new PolishCharactersMapperImpl());
       default:
         throw new UndefinedTransformException(transform);
     }
