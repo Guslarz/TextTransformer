@@ -42,6 +42,8 @@ public class TextTransformerFactory {
         return new NumberToWordsTransformer(previous);
       case "removeDuplicates":
         return new DuplicateRemover(previous);
+      case "polishLetters":
+        return new PolishCharactersTransformer(previous, new PolishCharactersMapperImpl());
       case "morseEncode":
         return new MorseEncoder(previous, new MorseMapperImpl());
       case "morseDecode":
