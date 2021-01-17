@@ -9,13 +9,13 @@ import java.util.stream.Stream;
 public class TextTransformerFactory {
 
   /**
-   * Statyczna metoda zwracająca instancję TextTranformer odpowiadającą
+   * Metoda zwracająca instancję TextTranformer odpowiadającą
    * ciągowi oczekiwanych przez użytkownika transformacji
    *
    * @param transforms kolejne transformacje
    * @return instancja TextTransformer
    */
-  public static TextTransformer createTextTransformer(String[] transforms) {
+  public TextTransformer createTextTransformer(String[] transforms) {
     return Stream.of(transforms)
         .reduce(new InitialText(), TextTransformerFactory::accumulator,
             TextTransformerFactory::combiner);

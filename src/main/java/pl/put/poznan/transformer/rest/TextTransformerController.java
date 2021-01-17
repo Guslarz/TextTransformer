@@ -16,6 +16,15 @@ import java.util.Arrays;
 public class TextTransformerController {
 
   private static final Logger logger = LoggerFactory.getLogger(TextTransformerController.class);
+  private final TextTransformerFactory factory;
+
+  public TextTransformerController() {
+    this(new TextTransformerFactory());
+  }
+
+  public TextTransformerController(TextTransformerFactory factory) {
+    this.factory = factory;
+  }
 
   @GetMapping(produces = "application/json")
   @ResponseBody
@@ -38,7 +47,7 @@ public class TextTransformerController {
     logger.debug("New POST request (x-www-form-urlencoded)");
 
     return createResponse(text, transforms);
-  } 
+  }
 
   @PostMapping(
       consumes = "application/json",
@@ -56,7 +65,7 @@ public class TextTransformerController {
     logger.debug(text);
     logger.debug(Arrays.toString(transforms));
 
-    TextTransformer transformer = TextTransformerFactory.createTextTransformer(transforms);
+    TextTransformer transformer = factory.createTextTransformer(transforms);
     String result = transformer.transform(text);
 
     return new TextTransformerResult(result, HttpStatus.OK).toResponseEntity();
