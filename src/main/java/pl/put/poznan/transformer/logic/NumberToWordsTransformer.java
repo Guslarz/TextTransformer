@@ -55,6 +55,10 @@ public class NumberToWordsTransformer extends ActualTransformer {
     String number = mr.group();
     String result = "";
 
+    if (number.matches("\\d+,\\d+")) {
+      number = number.replace(',','.');
+    }
+
     if (Float.parseFloat(number) > 1000) {
       return number;
     }

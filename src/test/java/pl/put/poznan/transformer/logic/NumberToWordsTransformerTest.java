@@ -41,7 +41,7 @@ class NumberToWordsTransformerTest {
 
   @Test
   public void testApplyFractionCommaSeparator() {
-    assertEquals("jedenaście i sześćdziesiąt dziewięć setnych", transformer.apply("11.69"));
+    assertEquals("jedenaście i sześćdziesiąt dziewięć setnych", transformer.apply("11,69"));
   }
 
   @Test
