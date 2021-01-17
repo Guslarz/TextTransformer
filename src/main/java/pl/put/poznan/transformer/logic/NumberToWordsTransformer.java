@@ -48,12 +48,16 @@ public class NumberToWordsTransformer extends ActualTransformer {
           "pięć", "sześć", "siedem", "osiem", "dziewięć"
   };
 
-  private static final Pattern pattern = Pattern.compile("\\d+(:?[.,]\\d+)?");
+  private static final Pattern pattern = Pattern.compile("\\d+(?:[.,]\\d+)?");
 
   private static String convertNumbersToWords(MatchResult mr) {
 
     String number = mr.group();
     String result = "";
+
+    if (number.matches("\\d+,\\d+")) {
+      number = number.replace(',','.');
+    }
 
     if (Float.parseFloat(number) > 1000) {
       return number;
