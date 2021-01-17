@@ -26,10 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f022d57-e8bb-4333-9ec3-8da561ecb442" name="Default Changelist" comment="Make TextTransformerFactory non-static and allow TextTransformerController to accept it in constructor">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/rest/TextTransformerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/logic/TextTransformerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/logic/TextTransformerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/rest/TextTransformerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/rest/TextTransformerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/rest/TextTransformerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/rest/TextTransformerControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <recent name="pl.put.poznan.transformer.rest.response" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MorseEncoderTest">
+  <component name="RunManager" selected="JUnit.TextTransformerControllerTest.testGet">
     <configuration name="MorseDecoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TextTransformer" />
       <extension name="coverage">
@@ -112,6 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextTransformerControllerTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TextTransformer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.put.poznan.transformer.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.put.poznan.transformer.rest" />
+      <option name="MAIN_CLASS_NAME" value="pl.put.poznan.transformer.rest.TextTransformerControllerTest" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TextTransformerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="TextTransformer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pl.put.poznan.transformer.app.TextTransformerApplication" />
@@ -123,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TextTransformerControllerTest.testGet" />
         <item itemvalue="JUnit.MorseEncoderTest" />
         <item itemvalue="JUnit.MorseDecoderTest" />
       </list>
@@ -196,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610881695370</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Make TextTransformerFactory non-static and allow TextTransformerController to accept it in constructor">
+      <created>1610882270863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610882270863</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,22 +302,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608052546357" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610882249601">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610882287456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610882249601" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1610882249601">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610882287456" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1610882287456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610882249601" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1610882249601">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610882287456" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1610882287456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610882249601" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1610882249601">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610882287456" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1610882287456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610882249601" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610882287456" />
     <state width="1237" height="163" key="GridCell.Tab.1.bottom" timestamp="1610880897095">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
