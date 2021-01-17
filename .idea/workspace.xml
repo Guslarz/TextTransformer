@@ -25,9 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f022d57-e8bb-4333-9ec3-8da561ecb442" name="Default Changelist" comment="Remove MorseMapper inetrface - not needed for mocks">
+    <list default="true" id="6f022d57-e8bb-4333-9ec3-8da561ecb442" name="Default Changelist" comment="Update pom.xml - add mockito and jupiter dependencies">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/logic/MorseDecoderTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/logic/MorseEncoderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,37 @@
       <recent name="pl.put.poznan.transformer.rest.response" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MorseEncoderTest">
+    <configuration name="MorseDecoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TextTransformer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.put.poznan.transformer.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.put.poznan.transformer.logic" />
+      <option name="MAIN_CLASS_NAME" value="pl.put.poznan.transformer.logic.MorseDecoderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MorseEncoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TextTransformer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.put.poznan.transformer.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.put.poznan.transformer.logic" />
+      <option name="MAIN_CLASS_NAME" value="pl.put.poznan.transformer.logic.MorseEncoderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TextTransformerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="TextTransformer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pl.put.poznan.transformer.app.TextTransformerApplication" />
@@ -89,6 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MorseEncoderTest" />
+        <item itemvalue="JUnit.MorseDecoderTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -144,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610721113285</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update pom.xml - add mockito and jupiter dependencies">
+      <created>1610879972915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610879972915</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +222,8 @@
     <MESSAGE value="Cosmetic changes" />
     <MESSAGE value="Add TextTransform factory and integrate with REST API" />
     <MESSAGE value="Add MorseEncoder and MorseDecoder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add MorseEncoder and MorseDecoder" />
+    <MESSAGE value="Update pom.xml - add mockito and jupiter dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update pom.xml - add mockito and jupiter dependencies" />
   </component>
   <component name="WindowStateProjectService">
     <state x="236" y="0" key="#Java" timestamp="1607515718599">
@@ -225,38 +270,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608052546357" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610734390125">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610881490633">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1610734390125">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610881490633" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1610881490633">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1610734390125">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610881490633" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1610881490633">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1610734390125">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610881490633" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1610881490633">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
-    <state width="1237" height="163" key="GridCell.Tab.1.bottom" timestamp="1610734390125">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610881490633" />
+    <state width="1237" height="163" key="GridCell.Tab.1.bottom" timestamp="1610880897095">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
-    <state width="1237" height="163" key="GridCell.Tab.1.center" timestamp="1610734390125">
+    <state width="1237" height="163" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610880897095" />
+    <state width="1237" height="163" key="GridCell.Tab.1.center" timestamp="1610880897095">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
-    <state width="1237" height="163" key="GridCell.Tab.1.left" timestamp="1610734390125">
+    <state width="1237" height="163" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610880897095" />
+    <state width="1237" height="163" key="GridCell.Tab.1.left" timestamp="1610880897095">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
-    <state width="1237" height="163" key="GridCell.Tab.1.right" timestamp="1610734390125">
+    <state width="1237" height="163" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610880897095" />
+    <state width="1237" height="163" key="GridCell.Tab.1.right" timestamp="1610880897095">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610734390125" />
+    <state width="1237" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610880897095" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1610719615923">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -265,10 +310,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610721161656" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610734200231">
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610879901034">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610734200231" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610879901034" />
     <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1606827119090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
