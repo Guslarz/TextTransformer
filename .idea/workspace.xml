@@ -27,8 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f022d57-e8bb-4333-9ec3-8da561ecb442" name="Default Changelist" comment="Add MorseEncoder and MorseDecoder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/logic/NumberToWordsTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/logic/NumberToWordsTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/logic/NumberToWordsTransformerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/logic/NumberToWordsTransformerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/logic/NumberToWordsTransformerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="275">
               <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/logic/NumberToWordsTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            <state relative-caret-position="320">
+              <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -444,21 +442,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LatexFormatTransformerTest - 2021.01.16 at 14h 15m 05s.xml">
-      <configuration name="LatexFormatTransformerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReverserTest - 2021.01.16 at 14h 17m 32s.xml">
-      <configuration name="ReverserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReverserTest - 2021.01.16 at 14h 19m 04s.xml">
-      <configuration name="ReverserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReverserTest - 2021.01.16 at 15h 46m 07s.xml">
-      <configuration name="ReverserTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DuplicateRemoverTest - 2021.01.16 at 15h 46m 33s.xml">
-      <configuration name="DuplicateRemoverTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LatexFormatTransformerTest - 2021.01.16 at 15h 46m 53s.xml">
       <configuration name="LatexFormatTransformerTest" configurationId="JUnit" />
     </history-entry>
@@ -474,6 +457,21 @@
     <history-entry file="NumberToWordsTransformerTest - 2021.01.17 at 13h 56m 51s.xml">
       <configuration name="NumberToWordsTransformerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NumberToWordsTransformerTest - 2021.01.17 at 14h 02m 23s.xml">
+      <configuration name="NumberToWordsTransformerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberToWordsTransformerTest - 2021.01.17 at 14h 03m 34s.xml">
+      <configuration name="NumberToWordsTransformerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberToWordsTransformerTest - 2021.01.17 at 14h 03m 52s.xml">
+      <configuration name="NumberToWordsTransformerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberToWordsTransformerTest - 2021.01.17 at 14h 09m 17s.xml">
+      <configuration name="NumberToWordsTransformerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberToWordsTransformerTest - 2021.01.17 at 14h 09m 37s.xml">
+      <configuration name="NumberToWordsTransformerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -486,7 +484,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3385269" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3385269" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -757,7 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/logic/NumberToWordsTransformerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="275">
           <caret line="56" column="7" lean-forward="true" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -767,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/logic/NumberToWordsTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        <state relative-caret-position="320">
+          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
         </state>
       </provider>
     </entry>

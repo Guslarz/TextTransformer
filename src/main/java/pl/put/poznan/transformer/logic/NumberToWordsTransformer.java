@@ -48,7 +48,7 @@ public class NumberToWordsTransformer extends ActualTransformer {
           "pięć", "sześć", "siedem", "osiem", "dziewięć"
   };
 
-  private static final Pattern pattern = Pattern.compile("\\d+(:?[.,]\\d+)?");
+  private static final Pattern pattern = Pattern.compile("\\d+(?:[.,]\\d+)?");
 
   private static String convertNumbersToWords(MatchResult mr) {
 
