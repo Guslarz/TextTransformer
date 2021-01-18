@@ -48,6 +48,8 @@ public class TextTransformerFactory {
         return new MorseEncoder(previous, new MorseMapperImpl());
       case "morseDecode":
         return new MorseDecoder(previous, new MorseMapperImpl());
+      case "rot13":
+        return new Rot13Transformer(previous, new Rot13MapperImpl());
       default:
         throw new UndefinedTransformException(transform);
     }
