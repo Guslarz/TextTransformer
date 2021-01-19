@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f022d57-e8bb-4333-9ec3-8da561ecb442" name="Default Changelist" comment="Make TextTransformerFactory non-static and allow TextTransformerController to accept it in constructor">
+    <list default="true" id="6f022d57-e8bb-4333-9ec3-8da561ecb442" name="Default Changelist" comment="Add TextTransformerControllerTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/rest/TextTransformerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/put/poznan/transformer/rest/TextTransformerControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SI/games-src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../put_io_lab/11-PT/CustomerBonus" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -79,7 +78,7 @@
       <recent name="pl.put.poznan.transformer.rest.response" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TextTransformerControllerTest.testGet">
+  <component name="RunManager" selected="JUnit.MorseEncoderTest">
     <configuration name="MorseDecoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TextTransformer" />
       <extension name="coverage">
@@ -137,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TextTransformerControllerTest.testGet" />
         <item itemvalue="JUnit.MorseEncoderTest" />
+        <item itemvalue="JUnit.TextTransformerControllerTest.testGet" />
         <item itemvalue="JUnit.MorseDecoderTest" />
       </list>
     </recent_temporary>
@@ -175,6 +174,7 @@
       <workItem from="1610717585751" duration="5005000" />
       <workItem from="1610734135508" duration="251000" />
       <workItem from="1610734396142" duration="85000" />
+      <workItem from="1611043018522" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="Add TextTransform factory and integrate with REST API">
       <created>1607344316387</created>
@@ -298,10 +298,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="51" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1610721160225" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1608052546357">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1611043212326">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608052546357" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1611043212326" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1610882287456">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -334,18 +334,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610880897095" />
+    <state x="530" y="209" width="461" height="263" key="MultipleFileMergeDialog" timestamp="1611010530587">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="530" y="209" width="461" height="263" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1611010530587" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1610719615923">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1610719615923" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1610721161656">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1611010602572">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1610721161656" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610879901034">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1611010602572" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611010791895">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1610879901034" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1611010791895" />
     <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1606827119090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

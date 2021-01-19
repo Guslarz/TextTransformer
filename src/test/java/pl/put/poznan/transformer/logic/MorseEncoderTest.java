@@ -38,7 +38,7 @@ public class MorseEncoderTest {
     MorseEncoder encoder = new MorseEncoder(new InitialText(), mapper);
 
     String input = "aaxa zac a";
-    String output = ". . .   .";
+    String output = ". . .   .   .";
     assertEquals(output, encoder.transform(input));
   }
 }
