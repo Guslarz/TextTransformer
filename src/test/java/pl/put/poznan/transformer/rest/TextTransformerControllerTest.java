@@ -29,4 +29,22 @@ public class TextTransformerControllerTest {
     assertNotNull(response.getBody());
     assertEquals(input, response.getBody().getResult());
   }
+
+  @Test
+  void testPostV2() {
+    TextTransformerFactory factory = mock(TextTransformerFactory.class);
+    when(factory.createTextTransformer(any(String[].class))).thenReturn(new InitialText());
+
+    TextTransformerRequestBody requestBody = mock(TextTransformerRequestBody.class);
+    when(requestBody.getText()).thenReturn("random text");
+    when(requestBody.getTransforms()).thenReturn(new String[] { "randomTransform" });
+
+    TextTransformerController controller = new TextTransformerController(factory);
+
+    ResponseEntity<TextTransformerResult> response = controller.postV2(requestBody);
+
+    assertEquals(HttpStatus.OK, response.getStatusCode());
+    assertNotNull(response.getBody());
+    assertEquals("random text", response.getBody().getResult());
+  }
 }
