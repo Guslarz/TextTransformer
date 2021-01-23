@@ -50,6 +50,8 @@ public class TextTransformerFactory {
         return new MorseDecoder(previous, new MorseMapperImpl());
       case "rot13":
         return new Rot13Transformer(previous, new Rot13MapperImpl());
+      case "toRoman":
+        return new RomanArabicConverter(previous);
       default:
         throw new UndefinedTransformException(transform);
     }
