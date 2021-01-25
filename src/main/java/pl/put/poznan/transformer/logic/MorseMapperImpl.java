@@ -2,7 +2,9 @@ package pl.put.poznan.transformer.logic;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ * Klasa definiująca mapę translacji znaków oraz metody konwersji.
+ */
 public class MorseMapperImpl implements MorseMapper {
 
   private static final Map<Character, String> toMorseMap = new HashMap<>() {{
@@ -50,11 +52,21 @@ public class MorseMapperImpl implements MorseMapper {
     }
   }};
 
+  /**
+   * Funkcja zwracająca znak Ascii mapowany przez podany ciąg w kodzie Morse'a
+   * @param morse ciąg znaków '.' oraz '-'
+   * @return pojedynczy znak Ascii
+   */
   @Override
   public Character getAscii(String morse) {
     return toAsciiMap.get(morse);
   }
 
+  /**
+   * Funkcja zwracająca ciąg w kodzie Morse'a mapowany przez podany znak Ascii
+   * @param ascii pojedynczy znak Ascii
+   * @return ciąg znaków '.' i '-'
+   */
   @Override
   public String getMorse(Character ascii) {
     return toMorseMap.get(ascii);
